@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Extra class project2</title>
+  </head>
+  <body>
+    <form action="./link.html" method="GET">
+      <h2>Survey Form</h2>
+      <label for="Name">Name</label><br />
+      <input
+        type="text"
+        placeholder="Enter your name"
+        required=""
+      /><br /><br />
+      <label for="Email">Email</label><br />
+      <input
+        type="email"
+        placeholder="Enter your Email"
+        required=""
+      /><br /><br />
+      <label for="Age">Age(optional)</label><br />
+      <input type="text" placeholder="Age" required="" /><br /><br />
+      <label for="name">Which option best describes your current role?</label
+      ><br />
+      <select name="Which option best describes your current role?">
+        <option
+          value="Select Current role"
+          name="role"
+          placeholder="Select current role"
+          required=""
+        >
+          Select current role
+        </option>
+        <option value="Student" name="role" required="">Student</option>
+        <option value="Full time job" name="role" required="">
+          Full time job
+        </option>
+        <option value="Full time learner" name="role" required="">
+          Full time learner
+        </option>
+        <option value="Prefer not to say" name="role" required="">
+          Prefer not to say
+        </option>
+        <option value="Others" name="role" required="">Others</option></select
+      ><br /><br />
+      <label for="recommend">
+        Would you recommend freecode camp to a friend?</label
+      ><br />
+      <input type="radio" name="recommend" required="" />Definitely <br />
+      <input type="radio" name="recommend" required="" />May be<br />
+      <input type="radio" name="recommend" required="" />Not sure <br /><br />
+      <label for="What is your favorite feature of freecode?"
+        >What is your favorite feature of freecode?</label
+      ><br />
+      <select name="What is your favorite feature of freecode?">
+        <option
+          value="Select an option"
+          name="feature"
+          placeholder="Select an option"
+          required=""
+        >
+          <br />
+          Select an option
+        </option>
+        <option value="Challenges" name="feature" required="">
+          Challenges
+        </option>
+        <option value="Projects" name="feature" required="">Projects</option>
+        <option value="Community" name="feature" required="">community</option>
+        <option value="Open source" name="feature" required="">
+          Open source
+        </option></select
+      ><br /><br />
+      <label for="What would you like to see improved? (Check all that apply)"
+        >What would you like to see improved? (Check all that apply)</label
+      ><br />
+      <input type="checkbox" name="Front-end projects" />Front-end projects
+      <br />
+      <input type="checkbox" name="Back-end projects" />Back-end projects<br />
+      <input type="checkbox" name="Data Visualization" />Data Visualization<br />
+      <input type="checkbox" name="Challenges" />Challenges<br />
+      <input type="checkbox" name="Open source community" />Open source
+      community<br />
+      <input type="checkbox" name="videos" />videos<br />
+      <input type="checkbox" name="Front-end projects" />Wiki<br />
+      <input type="checkbox" name="Front-end projects" />Additional Courses<br /><br />
+      <label for="Any comments or suggestions?"
+        >Any comments or suggestions?</label
+      ><br />
+      <textarea
+        name="description"
+        rows="10"
+        cols="40"
+        placeholder="Enter youe comment here....."
+      ></textarea
+      ><br /><br />
+      <input type="Submit" />
+    </form>
+  </body>
+</html>
